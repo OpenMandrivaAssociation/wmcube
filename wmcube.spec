@@ -14,7 +14,6 @@ URL:		http://boombox.campus.luth.se/projects.php
 BuildRequires:	libxext-devel
 BuildRequires:	libx11-devel
 BuildRequires:	libxpm-devel
-BuildRoot:	%{_tmppath}/%name-buildroot
 
 
 %description
