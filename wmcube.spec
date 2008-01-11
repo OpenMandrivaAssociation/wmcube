@@ -46,12 +46,6 @@ install -m 755 wmcube/wmcube %buildroot%{_bindir}
 mkdir -p %buildroot%{_datadir}/wmcube
 install -m 644 3dObjects/* %buildroot%{_datadir}/wmcube
 
-install -m 755 -d %buildroot%{_menudir}
-cat << EOF > %buildroot%{_menudir}/%name
-?package(%name):command="%{_bindir}/%name -o %{_datadir}/%name/ball-solid.wmc" icon="%name.png"\\
-                 needs="X11" section="System/Monitoring" title="WmCube"\\
-                 longtitle="A realtime rotating 3d-object and CPU load in a small icon" xdg="true"
-EOF
 
 mkdir -p %{buildroot}%{_datadir}/applications
 cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop <<EOF
@@ -84,7 +78,6 @@ rm -rf %buildroot
 %{_liconsdir}/%name.png
 %{_miconsdir}/%name.png
 %{_iconsdir}/%name.png
-%{_menudir}/%name
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_datadir}/%name/*
 
