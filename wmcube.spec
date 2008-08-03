@@ -1,5 +1,5 @@
 %define version 0.98
-%define release %mkrel 12
+%define release %mkrel 13
 %define name wmcube
 
 Summary:  Realtime rotating 3d-object and CPU load in a small dock app
