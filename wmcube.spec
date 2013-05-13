@@ -11,9 +11,9 @@ Group:		Monitoring
 Source0:	%name-%{version}.tar.bz2
 Source1:	%name-icons.tar.bz2
 URL:		http://boombox.campus.luth.se/projects.php
-BuildRequires:	libxext-devel
-BuildRequires:	libx11-devel
-BuildRequires:	libxpm-devel
+BuildRequires:	pkgconfig(xext)
+BuildRequires:	pkgconfig(x11)
+BuildRequires:	pkgconfig(xpm)
 BuildRoot:	%{_tmppath}/%name-buildroot
 
 
