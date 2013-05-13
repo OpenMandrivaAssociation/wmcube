@@ -1,5 +1,5 @@
 %define version 0.98
-%define release %mkrel 14
+%define release  15
 %define name wmcube
 
 Summary:  Realtime rotating 3d-object and CPU load in a small dock app
@@ -14,7 +14,6 @@ URL:		http://boombox.campus.luth.se/projects.php
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
-BuildRoot:	%{_tmppath}/%name-buildroot
 
 
 %description
