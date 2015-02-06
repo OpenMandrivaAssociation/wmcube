@@ -1,5 +1,5 @@
 %define version 0.98
-%define release  15
+%define release  16
 %define name wmcube
 
 Summary:  Realtime rotating 3d-object and CPU load in a small dock app
