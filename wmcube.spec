@@ -10,7 +10,7 @@ License:	GPL
 Group:		Monitoring
 Source0:	%name-%{version}.tar.bz2
 Source1:	%name-icons.tar.bz2
-URL:		http://boombox.campus.luth.se/projects.php
+URL:		https://boombox.campus.luth.se/projects.php
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
