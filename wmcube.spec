@@ -11,6 +11,7 @@ Group:		Monitoring
 Source0:	%name-%{version}.tar.bz2
 Source1:	%name-icons.tar.bz2
 URL:		https://boombox.campus.luth.se/projects.php
+BuildRequires:	make
 BuildRequires:	pkgconfig(xext)
 BuildRequires:	pkgconfig(x11)
 BuildRequires:	pkgconfig(xpm)
